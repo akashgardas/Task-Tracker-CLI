@@ -99,35 +99,35 @@ mvn spring-boot:run
 ### Add a task
 
 ```
-add,Buy groceries
+add "Buy groceries"
 ```
 
 ### Update a task
 
 ```
-update,1,Buy groceries and cook dinner
+update 1 "Buy groceries and cook dinner"
 ```
 
 ### Delete a task
 
 ```
-delete,1
+delete 1
 ```
 
 ### Mark task status
 
 ```
-mark-in-progress,1
-mark-done,1
+mark-in-progress 1
+mark-done 1
 ```
 
 ### List tasks
 
 ```
 list
-list,todo
-list,in-progress
-list,done
+list todo
+list in-progress
+list done
 ```
 
 ---
